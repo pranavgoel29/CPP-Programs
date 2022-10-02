@@ -1,6 +1,6 @@
-#include<iostream>      // For input and output
+#include <iostream>      // For input and output
 
-#include<conio.h>       // Header file for getch()
+#include <conio.h>       // Header file for getch()
 
 using namespace std;    // For declaring all variable standard
 
