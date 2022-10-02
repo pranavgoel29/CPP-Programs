@@ -14,9 +14,9 @@
 
 ### What if you find some other ways to do the same thing?
 
-* Then please consider sending a pull request to this repo section with the explanation of why you think it's better or easier to do or just send a pull request so I can add it because there is no harm in learning new ways to do a thing. 
+* Please consider sending a pull request to this repo section with the explanation of why you think it's better or easier to do or just send a pull request so I can add it because there is no harm in learning new ways to do a thing. 
 
-* Then, I am gonna check it and will definitely update the files if I found no errors in the program (always test your program before sending and try to reduce as many errors as you can) we are here to improve and `Help each other. 
+* I will check them and update the files if I found no errors in the program (always test your program before sending and try to reduce as many errors as you can) we are here to improve and `Help each other. 
 
 ## Code of Conduct
 
