@@ -1,4 +1,15 @@
-# Getting started with C++?
+<h1 align="center">Getting started with C++?</h1>
+<br>
+
+<a href="https://github.com/pranavgoel29/CPP-Programs/stargazers"><img src="https://img.shields.io/github/stars/pranavgoel29/CPP-Programs" alt="Stars Badge"/></a>
+<a href="https://github.com/pranavgoel29/CPP-Programs/network/members"><img src="https://img.shields.io/github/forks/pranavgoel29/CPP-Programs" alt="Forks Badge"/></a>
+<a href="https://github.com/pranavgoel29/CPP-Programs/pulls"><img src="https://img.shields.io/github/issues-pr/pranavgoel29/CPP-Programs" alt="Pull Requests Badge"/></a>
+<a href="https://github.com/pranavgoel29/CPP-Programs/issues"><img src="https://img.shields.io/github/issues/pranavgoel29/CPP-Programs" alt="Issues Badge"/></a>
+<a href="https://github.com/pranavgoel29/CPP-Programs/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/pranavgoel29/CPP-Programs?color=2b9348"></a>
+<a href="https://github.com/pranavgoel29/CPP-Programs/blob/master/LICENSE"><img src="https://img.shields.io/github/license/pranavgoel29/CPP-Programs?color=2b9348" alt="License Badge"/></a>
+
+<br>
+
 
 * These are the programs that will help you to get started with C++
 
@@ -23,3 +34,7 @@
 Please refer to the following file -
 
 [code-of-conduct.md](https://github.com/pranavgoel29/My-projects/blob/9bd0669446832e4f9f97e26764391cef9ab60369/C++_programmes_/code-of-conduct.md)
+
+<br>
+
+### Star the Repo. ❤️
