@@ -23,7 +23,7 @@ void sortOne(int arr[],int n){
             right--;
         }
 
-        // yha agar aa gye ho iska matlab arr[left]=1, arr[right]=0
+        // if control flow of program comes to this section then it means arr[left]=1, arr[right]=0
         if(left<right){
 
             swap(arr[left],arr[right]);
