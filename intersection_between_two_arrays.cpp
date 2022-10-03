@@ -1,42 +1,46 @@
-#include<iostream>
-#include<vector>
-#include<set>
-
+#include<bits/stdc++.h>
 using namespace std;
+int N=1e5;
+vector<int> intersection_between_two_arrays(int A[],int B[],int n,int m)
+{
+    //2-pointer method
+    sort(A,A+n);
+    sort(B,B+m);
 
-//function to find intersection of elements between two vectors/arrays
-vector<int> intersection(vector<int>& nums1, vector<int>& nums2) {
-        
-        vector<int> v;
-       
-        set<int> s;
-       
-        for(int i=0; i<nums1.size(); i++) {
-            s.insert(nums1[i]);
-        }
-        for(int i=0; i<nums2.size(); i++) {
-            if(s.find(nums2[i]) != s.end()) // if found intersection
-            { 
-            v.push_back(nums2[i]); // storing the common/intersection elements into a vector
-            s.erase(nums2[i]); // so that further similar elements do'nt match and we return a unique solution
-            }
-        }
-        return v;
-        
-    }
-    
-    int main()
+    vector<int> v;
+
+    int i=0,j=0;//initially both of the pointers are at the first element of both the arrays
+
+    while(i<n&&j<m)//run the loop while either of them has reached the edn
     {
-        vector<int> nums1 = {1,3,3,5,7,11};
-        vector<int> nums2 = {3,5,11,2};
-        vector<int> ans;
-        
-        ans=intersection(nums1,nums2);
-        
-        cout<<"The intersecting elements are:";
-        
-        for(int i = 0; i<ans.size();i++)
+        if(A[i]==B[j])//equal means its a common element so we push it into our result vector and move both pointers one step ahead
         {
-            cout<<ans[i]<<" ";
+            v.push_back(A[i]);
+            i++;j++;
         }
+        else if(A[i]<B[j])//as the current element in the array A is less than that of B so we move its pointer one
+            i++;         //step ahead so as to get en element which can be potentially equal to that of B
+        else
+            j++;    //here B has the smaller element so its pointer is moved ahead one step
     }
+    return v;
+}
+int main()
+{
+    int A[N],B[N];
+    int n,m;//sizes for the two arrays
+    cout<<"Enter the sizes of the two arrays: ";
+    cin>>n>>m;
+
+    cout<<"Enter the elements of the first array: ";
+    for(int i=0;i<n;i++)
+        cin>>A[i];
+
+    cout<<"Enter the elements of the second array: ";
+    for(int i=0;i<m;i++)
+        cin>>B[i];
+
+    vector<int> ans=intersection_between_two_arrays(A,B,n,m);
+    for(int i=0;i<ans.size();i++)
+        cout<<ans[i]<<" ";
+}
