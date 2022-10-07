@@ -37,4 +37,4 @@ Please refer to the following file -
 
 <br>
 
-### Star the Repo. ❤️
+### Star the Repo ❤️
